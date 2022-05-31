@@ -3,17 +3,17 @@
 <html>
 	<head>
 		<?php include('header.php') ?>
-        <?php 
+        <?php
         // session_start();
         // if(isset($_SESSION['login_id'])){
         //     header('Location:home.php');
         // }
         ?>
-		<title>Admin Login |Bus Booking</title>
+		<title>Admin Login |Green Bus</title>
 	</head>
     <style>
         body {
-    background-image: url(./assets/img/bus.jpg);
+    background-image: url(./assets/img/bus.png);
     height: 96vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,11 +34,11 @@
                         <div class="form-group">
                             <label>Password</label>
                             <input type="password" name="password" class="form-control">
-                        </div> 
+                        </div>
                         <div class="form-group text-right">
                             <button class="btn btn-primary btn-block" name="submit">Login</button>
                         </div>
-                        
+
                     </form>
             </div>
         </div>

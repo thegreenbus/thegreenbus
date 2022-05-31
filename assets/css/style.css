@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #2c4964;
+  color: #008000;
 }
 
 #header .logo img {
@@ -475,7 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 #bg-bus{
   width: 100%;
   height: 90vh;
-  background: url("../img/bus.jpg") top center;
+  background: url("../img/bus.png") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -200px;
